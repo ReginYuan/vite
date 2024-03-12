@@ -1,0 +1,10 @@
+@import url(./other.css);
+:root {
+  --main-bg-color: green;
+}
+
+/* 修改字体颜色 */
+.root {
+  @console.error hello root;
+  color: var(--main-bg-color);
+}
