@@ -10,7 +10,13 @@
     "esModuleInterop": true,
     "lib": ["esnext", "dom"],
     "isolatedModules": true,
-    "types": ["vite/client", "node"]
+    "types": ["vite/client"],
+    "typeRoots": [
+      "./node_modules/@as-pect/assembly/types",
+      "./node_modules/@types/",
+      "./types",
+      "./node_modules"
+    ]
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
 }
